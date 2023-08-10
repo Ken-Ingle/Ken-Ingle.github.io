@@ -34,13 +34,13 @@ import data from '../data/careerlist.json';
           </div>          
         </div>
 
-        <p slot="description">
+        <p slot="description" class="text-justify">
           {job.blurb}
         </p>
 
-        <ul slot="list" class="list-disc">
+        <ul slot="list" class="list-image-[url(/public/chevron_right.svg)]">
           {job.highlights.map((item) => (
-            <li>{item}</li>
+            <li class="ml-[-12px] text-justify">{item}</li>
           ))}
         </ul>
       </CareerSection>
