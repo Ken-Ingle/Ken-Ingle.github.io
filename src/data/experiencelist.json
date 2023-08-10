@@ -5,12 +5,19 @@
   { "row": 1,  "year": "10", "exp": "Continuous Integration / Delivery"  },
   { "row": 1,  "year": "12", "exp": "Agile, scrum"  },
   { "row": 1,  "year": "4", "exp":  "Kanban"  },
-  { "row": 1,  "year": "3",  "exp": "Microsoft AzureAmazon AWS"  },
+  { "row": 1,  "year": "3",  "exp": "Microsoft Azure"  },
   { "row": 1,  "year": "3",  "exp": "Amazon AWS"  },
+
+
   { "row": 2,  "year": "23", "exp": ".NET, C#, ASP.NET"  },
   { "row": 2,  "year": "6",  "exp": ".NET Core"  },
-  { "row": 2,  "year": "20", "exp": "Microsoft SQL Server"  },
-  { "row": 2,  "year": "16", "exp": "C++, Win32, POSIX"  },
+  { "row": 2,  "year": "16", "exp": "Microsoft SQL Server"  },
+  { "row": 2,  "year": "12", "exp": "C++, Win32, POSIX"  },
+  { "row": 2,  "year": "3", "exp":  "PostgreSQL"  },
+
+
   { "row": 3,  "year": "19", "exp": "Web, Javascript, REST"  },
-  { "row": 3,  "year": "6",  "exp": "TypeScript, React, "  }
+  { "row": 3,  "year": "6",  "exp": "TypeScript, React"  },
+  { "row": 3,  "year": "4",  "exp": "Ionic, Angular"  }
+
 ]
