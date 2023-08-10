@@ -1,0 +1,21 @@
+---
+import { Icon } from 'astro-icon'
+
+export interface Props {
+	title: string;
+  css?: string
+  icon?: string;
+}
+
+const { title, css, icon } = Astro.props;
+---
+
+<div class={css}>
+		<h2 class="bg-primary-300 p-1 font-semibold text-lg">
+      {icon &&   <Icon name={icon} class="w-5 inline bg-center text-cyan-700 " + color />}      
+			{title}			
+		</h2>
+		<div class="mb-4 px-1 pt-0">
+			<slot />
+		</div>
+</div>

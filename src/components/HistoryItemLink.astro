@@ -1,0 +1,18 @@
+---
+export interface Props {
+	dates: string;
+  item: string;
+  href: string;
+}
+
+const { dates, item, href } = Astro.props;
+---
+
+<li class="flex text-sm">
+  <span class="mr-4 text-gray-400 w-24">
+    {dates}
+  </span>  
+  <span class="flex-auto text-cyan-900 text-sm w-40">
+    <a href={href}>{item}</a>
+  </span>
+</li>

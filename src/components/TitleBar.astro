@@ -1,0 +1,36 @@
+---
+
+export interface Props {
+	subtitle?: string;
+}
+
+const { subtitle } = Astro.props;
+---
+
+<>
+<div class="flex  bg-primary-800 p-2 pb-0 mb-0 text-primary-100">
+
+  <div class="flex-auto">
+    <h1 class="text-6xl ">
+      Ken Ingle
+    </h1>
+  </div>
+
+  <div class="flex-none float-right text-sm  mr-4  text-primary-200">
+    <p class="">
+      Missoula, Montana
+    </p>
+    <p>
+      <a href="mailto:ken@keningle.net">ken@keningle.net</a>
+    </p>
+  </div>
+</div>
+
+{subtitle && (
+  <div class="h-10 bg-primary-800 pl-2 pb-4 pt-2 mt-0 mb-2 text-primary-400 font-semibold">
+    {subtitle}
+  </div>
+)}
+
+</>
+

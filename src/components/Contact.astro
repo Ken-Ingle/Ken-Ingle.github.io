@@ -1,0 +1,15 @@
+---
+import ContactItem from './ContactItem.astro'
+import contactlist from '../data/contactlist.json';
+---
+
+<ul class="list-none">
+  {contactlist.map((item) => (
+    <ContactItem
+      item={item.item}
+      href={item.href}
+      icon={item.icon}
+      desc={item.desc}
+    />
+  ))}
+</ul>

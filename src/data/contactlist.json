@@ -1,0 +1,29 @@
+[
+  {
+    "item": "ken@keningle.net",
+    "href": "mailto:ken@keningle.net",
+    "icon": "ic:twotone-email",
+    "desc": "My main, personal email, powered by Microsoft Exchange Server."
+  },
+
+  {
+    "item": "keningle@gmail.com",
+    "href": "mailto:keningle@gmail.com",
+    "icon": "ic:twotone-email",
+    "desc": "My alternate email, in case you insist that Google reads it, too"
+  },
+
+  {
+    "item": "Facebook.com/KenIngle",
+    "href": "https://www.facebook.com/KenIngle",
+    "icon": "fe:facebook",
+    "desc": "I'm fairly antisocial online, but I am on this social network."
+  },
+
+  {   
+    "item": "LinkedIn.com/in/KenIngle",
+    "href": "http://www.linkedin.com/in/keningle",
+    "icon": "uil:linkedin",
+    "desc": "And on the social network for work-networkers."
+  }
+]

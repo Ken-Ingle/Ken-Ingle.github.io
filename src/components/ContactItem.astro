@@ -1,0 +1,25 @@
+---
+import { Icon } from 'astro-icon'
+
+export interface Props {
+	icon: string;
+  item: string;
+  href: string;
+  desc: string;
+  color?: string;
+}
+
+const { icon, item, href, desc, color } = Astro.props;
+---
+
+
+<li class="flex text-sm mt-4">
+  <span class="mr-4 text-gray-400 w-6">
+    <Icon name={icon} class="w-6 inline text-cyan-700 " + color />
+  </span>  
+  <span class="flex-auto text-cyan-900 text-sm">
+    <a href={href} class="text-orange-600 underline" >{item}</a>
+    <br>
+    {desc}
+  </span>
+</li>  

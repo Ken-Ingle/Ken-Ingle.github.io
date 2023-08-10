@@ -1,0 +1,50 @@
+---
+import CareerSection from "./CareerSection.astro";
+import Link from '../components/Link.astro';
+import data from '../data/careerlist.json';
+---
+
+<ul class="">
+  {data.map((job) => (
+    <li>
+      <CareerSection title={job.title} >
+        <div slot="asside">
+          <div class="font-semibold">
+            {job.urlLocation === 'company' && (
+                <Link href={job.url}>{job.company}</Link>
+            )}
+            {job.urlLocation !== 'company' && (
+              <>
+                {job.company}
+              </>  
+            )}          
+          </div>
+          {job.product && job.urlLocation === 'product' && (
+            <>
+              <Link href={job.url}>{job.product}</Link>
+            </>
+          )}
+          {job.product && job.urlLocation !== 'product' && ( 
+            <>
+              {job.product}
+            </>
+          )}
+          <div class="text-sm">
+            {job.dates}
+          </div>          
+        </div>
+
+        <p slot="description">
+          {job.blurb}
+        </p>
+
+        <ul slot="list" class="list-disc">
+          {job.highlights.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ul>
+      </CareerSection>
+    </li>
+  ))}
+
+</ul>

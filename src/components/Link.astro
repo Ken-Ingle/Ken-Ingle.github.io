@@ -1,0 +1,27 @@
+---
+export interface Props {
+  href: string;
+  css?: string;  
+}
+
+const { href, css } = Astro.props;
+---
+
+
+{css && (
+<a 
+  class={"text-secondary-600 underline " + css.toString()}
+  href={href}
+>
+  <slot />
+</a>
+)}
+
+{!css && (
+<a 
+  class="text-secondary-600 underline"
+  href={href}
+><slot /></a>
+
+)}
+

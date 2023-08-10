@@ -1,0 +1,14 @@
+---
+export interface Props {
+	yr: string;
+  exp: string;
+}
+
+const { yr, exp } = Astro.props;
+---
+
+
+<li class="flex">
+  <div class="text-primary-800 font-semibold w-[66px] inline-block text-right mr-2">{yr} years </div>
+  <div class="inline-block">{exp}</div>
+</li>

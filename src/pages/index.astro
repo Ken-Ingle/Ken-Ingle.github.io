@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import TitleBar from '../components/TitleBar.astro';
+import ProductsList from '../resume-components/ProductsList.astro';
+import History from '../components/History.astro';
+import Contact from '../components/Contact.astro';
+---
+
+<Layout title="Ken Ingle">
+	<main>
+    <TitleBar subtitle="Director of Engineering" />
+    
+		<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+      <Container title="Who I am, where I've been" css="col-span-2">
+        <History />
+        <div class="text-cyan-950 pt-4 text-justify">
+            Grew up in Nebraska, educated in Boston, lived mostly in the 
+            Seattle area. I've lead the design, implementation, and deployment 
+            for teams of 4 to 40 developers at Microsoft and other companies.
+            Living the dream in Montana.
+        </div>
+      </Container>
+
+      <Container title="Products I've shipped">
+        <ProductsList />
+      </Container>
+
+
+		</div>
+
+    <Container title="Getting in contact with me">
+      <Contact />
+    </Container>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		max-width: 130ch;
+	}
+</style>

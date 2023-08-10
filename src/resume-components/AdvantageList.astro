@@ -1,0 +1,14 @@
+---
+import Advantage from './Advantage.astro'
+import list from '../data/advantagelist.json';
+---
+
+<ul class="list-none">
+
+  {list.map((adv) => (
+    <Advantage title={adv.lead}>
+      {adv.desc}
+    </Advantage>
+  ))}
+
+</ul>
