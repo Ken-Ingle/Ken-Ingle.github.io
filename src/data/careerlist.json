@@ -9,9 +9,7 @@
     "blurb": "Head of engineering, QA, operations, and infrastructure for startup Orbital Shift's scheduling, time-clock, & payroll software services.",
     "highlights": [
       "Drive bi-weekly scrum releases for product team. Own rhythm and planning for team, including retrospectives, demos, and bi-weekly product releases.",
-      "Scaled SaaS product by 30% in 1 year, bringing on several dozen new customers. Migrated product infrastructure from self-hosted to RackSpace Cloud (OpenStack) & AWS, fully automating deployment and virtualization.",
       "Planned, designed, delivered, and maintain eight key mobile applications on the Apple iOS App Store and Google Play Store. Automated build & release process.",
-      "Implemented Affordable Care Act (ACA) reporting system in use with the two largest Montana-based CPAs and several OrbitalShift customers.",
       "Simplified and streamlined team resources and infrastructure to turn company profitable."
     ]    
   },
@@ -30,8 +28,7 @@
       "Re-defined engineering process, including streamlining release processes, bi-weekly deployments, reporting & metrics. Established 7 scrum teams.",
       "Drove cloud virtualization of SaaS product into Amazon AWS, expanded across 2 availability zones (us-east-2, eu-west-1).",
       "Drove development plan, budget, and team resourcing strategy. Hiring manager for 40-member team. Grew 4 directs reports into engineering leads.",
-      "Established metrics & KPIs to report upon and drive engineering strategy.",
-      "Worked cross-team with sales & leadership to expand customer base 6-fold."
+      "Established metrics & KPIs to report upon and drive engineering strategy."
     ]
   },
 
@@ -47,10 +44,8 @@
       "Owned international device input, lexicon, & dictionary support (text prediction).",
       "Drove teams in Redmond, WA; Braga, Portugal; and Dubai, UAE. Hired entire team in Redmond. Grew 2 team members into leads, making 1 my successor.",
       "Built Windows Phone’s “Globalization Platform:” Natural Language Services (NLS), Regions & Locales / UI, Network Time Zone locator, sorting & display API’s.",
-      "Worked cross-organization to push team’s NLS into Windows 8 & 8.1. Owned development for one of seven of Windows Phone’s engineering 'triads.'",
-      "Simplified translation of on-device and services via owning post-build system and implementing string-based translation.",
-      "Delivered additional features for WP7.5 and WP8, expanding device ranging to 34 international markets.",
-      "Created new WindowsPhone.com portal (releasing @ WP7 launch), for marketing, browse-and-buy, and help and how-to content for both the desktop and on-device experience."
+      "Worked cross-company to push team’s NLS into Windows 8 & 8.1. Owned development for one of seven of Windows Phone’s engineering 'triads.'",
+      "Delivered additional features for WP7.5 and WP8, expanding device ranging to 34 international markets."
     ]
   },
 
@@ -65,12 +60,9 @@
     "blurb": "Head of development for Microsoft Exchange’s on-premises & online deployment & configuration, globalization, user assistance integration, and management console.",
     "highlights": [
       "Re-architected Exchange Server 2010 to enable 'language packages,' so now new languages can be deployed post-release and post initial deployment.",
-      "Simplified the role-based deployment of on-premises Exchange Server.",
       "Globalized Exchange Server’s Outlook Web App, Unified Messaging, and server administration components (management console, & control panel).",
-      "Built help.outlook.com, which powered both the on-premises Exchange Server help system as well as Exchange Online and Office 365.",
       "Created Exchange Online availability notification service using Windows Azure.",
-      "Worked with 40-member writing team to generate all Exchange Server documentation, (on DVD, whitepapers, and on the Exchange TechCenter).",
-      "Responsible for the Microsoft Exchange Server SDKs."
+      "Worked with 40-member writing team to generate all Exchange Server documentation, (on DVD, whitepapers, and on the Exchange TechCenter)."
     ]
   },
 
@@ -84,7 +76,6 @@
     "blurb": "Frontend lead responsible for MSN / Windows Live’s Subscription Central, Billing Services, Windows Live Account Management, and Windows Live Developer Portal.",
     "highlights": [
       "Unified the various sites' infrastructures, from their original, disparate code bases.",
-      "Created new site deployment strategy (WiX deployment .msi installs), unit testing (NUnit and NUnitASP), rendering (ASP.NET user and server controls), and monitoring infrastructure.",
       "Re-wrote MSN Member Center for the Bell.Ca partnership launch in MSN 9.1, including redesign of the site's rendering components, and set up the proposal and plans for UI content management integration. Handled the V1 architectural work for the Windows Live and Online Services end-user evangelism site, join.msn.com.",
       "Integrated with back-end metrics, click-tracking, user store, registration pipeline, and other components of MSN and Windows Live."
     ]
@@ -100,12 +91,9 @@
     "blurb": "Led engineering efforts for services & tools used by development partners of Microsoft’s HailStorm initiative (“.NET My Services”).",
     "highlights": [
       "Recruited the entire team throughout its first year. I grew 3 directs into leads.",
-      "Responsible for team's collaboration with Passport, .NET Alerts, Wallet, MapPoint, and MS-CRM.",
       "Responsible for ensuring that secure Standard Operating Procedures were in place for Microsoft's FTC consent order, worked with Price Waterhouse Coopers on audit of our procedures.",
-      "Received 2 patents for key-exchange processes developed.",
-      "Owned our development and testing lab, including budgeting/purchasing.",
-      "Architect for the entire web application, the web services, and the SQL Server database schema since the team's inception.",
-      "Being a small team, I still owned several areas of managed and unmanaged code (deployment, reporting, event-reporting, UI validation, and NT service infrastructure)."
+      "Received 2 patents for key-exchange cryptography processes developed.",
+      "Owned our development and testing lab, including budgeting/purchasing."
     ]
   },
 
@@ -120,11 +108,7 @@
     "highlights": [
       "Owned the service integration points between Transpoint and financial institutions (Wells Fargo, Chase Manhattan, Bank of America, First Data Solutions, Western Union, M&I Bank, and others).",
       "Developed Transpoint's payment systems backend, user/biller registration system, and reporting system.",
-      "Responsible for Transpoint datacenter, backend processes and infrastructure.",
-      "Had full design/implementation responsibility for Transpoint's backend service center systems (our database, 3rd party connectivity with the banks and acquirers/issuers, and automated processes).",
-      "Implemented NT services to send payment instructions and remittance advice to biller clients through MSMQ.",
-      "Developed a custom OFX (Open Financial eXchange, an SGML markup for payments, bills, and payment instructions) interface - built as an ISAPI extension.",
-      "Built web UI as operational front-end to backend processes."
+      "Responsible for Transpoint datacenter, backend processes and infrastructure."
     ]
   },
 
