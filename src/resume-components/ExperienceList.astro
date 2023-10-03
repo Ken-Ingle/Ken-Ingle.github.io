@@ -3,7 +3,7 @@ import Experience from './Experience.astro';
 import list from '../data/experiencelist.json'
 ---
 
-<div class="grid grid-cols-1 md:grid-cols-7 my-4 mx-12 print:m-0 print:mt-4 print:grid-cols-7 print:text-sm">
+<div class="grid grid-cols-1 md:grid-cols-7 my-4 mx-4 print:m-0 print:mt-4 print:grid-cols-7 print:text-sm">
 
   <ul class="list-none col-span-3">
     {list.filter(e => e.row === 1).map((exp) => (
