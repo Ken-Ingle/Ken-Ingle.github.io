@@ -11,12 +11,12 @@ import data from '../data/careerlist.json';
         <div slot="asside">
           <div class="font-semibold">
             {job.urlLocation === 'company' && (
-                <Link href={job.url}>{job.company}</Link>
+                <Link href={job.url} css="text-xl">{job.company}</Link>
             )}
             {job.urlLocation !== 'company' && (
-              <>
+              <span class="text-xl">
                 {job.company}
-              </>  
+              </span>  
             )}          
           </div>
           {job.product && job.urlLocation === 'product' && (

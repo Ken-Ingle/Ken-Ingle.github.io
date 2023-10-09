@@ -1,0 +1,56 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import TitleBar from '../components/TitleBar.astro';
+import AdvantageList from '../resume-components/AdvantageList.astro';
+import ExperienceList from '../resume-components/ExperienceList.astro';
+import Link from '../components/Link.astro';
+import objectives from '../data/objectivelist.json';
+import SimpleCareerList from '../resume-components/SimpleCareerList.astro';
+import SimpleContainer from '../components/SimpleContainer.astro';
+---
+
+<Layout title="Ken Ingle's Resume">
+	<main>
+    <TitleBar subtitle="" />
+
+    <SimpleContainer title="My Objectives" css="col-span-2">
+      <ol class="list-decimal list-inside">
+        {objectives.map((objective) => (
+          <li>{objective}</li>
+        ))}
+      </ol>
+    </SimpleContainer>
+
+    <SimpleContainer title="My Advantages"  icon="icon-park:positive-dynamics">
+      <AdvantageList />
+    </SimpleContainer>
+
+
+    <div class="break-after-page">
+      <SimpleContainer title="My Education" icon="zondicons:education">
+          Boston University, College of Engineering,
+          Boston, MA. Bachelor of Science in Computer Engineering.
+          <ExperienceList />
+  
+      </SimpleContainer>
+    </div>
+
+    <SimpleContainer title="My Career" icon="mdi:worker">
+      <SimpleCareerList />
+    </SimpleContainer>
+
+
+
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		max-width: 130ch;
+	}
+
+
+</style>

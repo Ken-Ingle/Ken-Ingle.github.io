@@ -7,4 +7,7 @@ export default defineConfig({
   integrations: [tailwind()],
   inlineStylesheets: true,
   site: 'http:/ken-ingle.github.io',
+  build: {
+    inlineStylesheets: `always`,
+  },
 });

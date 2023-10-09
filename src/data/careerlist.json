@@ -20,7 +20,7 @@
     "dates": "2012 to 2017",
     "url": "https://www.itradenetwork.com",
     "urlLocation": "company",
-    "title": "Director of Engineering (40-member team)",
+    "title": "Director of Engineering",
     "blurb": "Head of engineering (software development, QA, release management, operations) for one of ITN's Software-as-a-Service, cloud-hosted product offerings.",
     "highlights": [
       "Scaled SaaS product to 20x capacity over three years driving $15 billion customer spend.",
@@ -37,7 +37,7 @@
     "dates": "2010 to 2012",
     "url": "https://en.wikipedia.org/wiki/Windows_Phone",
     "urlLocation": "product",
-    "title": "Principal Development Manager (20-member development team)",
+    "title": "Principal Development Manager",
     "blurb": "Head of device and services product globalization for Windows Phone 7, 7.5, and 8.",
     "highlights": [
       "Owned international device input, lexicon, & dictionary support (text prediction).",
@@ -55,7 +55,7 @@
     "dates": "2005 to 2010",
     "url": "https://www.microsoft.com/exchange",
     "urlLocation": "product",
-    "title": "Principal Development Manager (36-member development team)",
+    "title": "Principal Development Manager",
     "blurb": "Head of development for Microsoft Exchange’s on-premises & online deployment & configuration, globalization, user assistance integration, and management console.",
     "highlights": [
       "Re-architected Exchange Server 2010 to enable 'language packages,' so now new languages can be deployed post-release and post initial deployment.",
@@ -71,7 +71,7 @@
     "dates": "2003 to 2005",
     "url": "http://msn.com/",
     "urlLocation": "product",
-    "title": "Lead Software Development Engineer (8-member team)",
+    "title": "Lead Software Development Engineer",
     "blurb": "Frontend lead responsible for MSN / Windows Live’s Subscription Central, Billing Services, Windows Live Account Management, and Windows Live Developer Portal.",
     "highlights": [
       "Unified the various sites' infrastructures, from their original, disparate code bases.",
@@ -86,7 +86,7 @@
     "dates": "2000 to 2003",
     "url": "https://en.wikipedia.org/wiki/.NET_My_Services",
     "urlLocation": "product",
-    "title": "Senior Development Manager (20-member team, 10 developers & 10-testers)",
+    "title": "Senior Development Manager",
     "blurb": "Led engineering efforts for services & tools used by development partners of Microsoft’s HailStorm initiative (“.NET My Services”).",
     "highlights": [
       "Recruited the entire team throughout its first year. I grew 3 directs into leads.",
@@ -102,7 +102,7 @@
     "dates": "1997 to 2000",
     "url": "https://www.cnet.com/tech/tech-industry/checkfree-surges-following-transpoint-buy/",
     "urlLocation": "product",
-    "title": "Lead Software Development Engineer (16-member team)",
+    "title": "Lead Software Development Engineer",
     "blurb": "Transpoint was a joint venture between Microsoft and First Data Corporation, envisioning online bill payment and presentment. Headed team responsible for payment processing and datacenter-hosted backend storage. I led 11 FDC developers and 5 Microsoft developers.",
     "highlights": [
       "Owned the service integration points between Transpoint and financial institutions (Wells Fargo, Chase Manhattan, Bank of America, First Data Solutions, Western Union, M&I Bank, and others).",

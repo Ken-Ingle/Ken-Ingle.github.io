@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import TitleBar from '../components/TitleBar.astro';
+
+const paraclass = "mb-4 mx-8 text-lg text-gray-700 text-justify";
+---
+
+<Layout title="Ken Ingle's Resume">
+	<main>
+    <TitleBar subtitle="" />
+
+    <Container title="">
+      <br>
+      <p class={paraclass}>
+        Look, I know Fleetcor is getting bombarded by résumés from very qualified candidates. 
+        While I'm sure they are talented individuals, I doubt they would have the 
+        <b>relevant background</b> coupled 
+        with the <b>passion</b> to become your engineering manager. 
+        Let me help make it wildly successful. 
+      </p>
+
+      <p class={paraclass}>
+        <b>How can I make it successful?</b> 
+        I started my career at one of the largest financial services companies 
+        of the time (now part of FiServe). Then I moved to Microsoft to help
+         them take a space in that industry.
+        I became known within Microsoft as the "payment systems lead," 
+        working with banks such as Citi, Chase, and Wells Fargo.
+        Our product was sold Intuit by that time. <i>Financial services is in my blood.</i>
+      </p>
+
+      <p class={paraclass}>
+        But, more recently, I remotely managed part of a company in the Bay Area, driving one 
+        of their 3 flagship SaaS products. With a team of over 40 engineers in Boise, India, and the U.K., 
+        we developed a procurement, spend management, and inventory solution that billions in annual spend. 
+        Re-defined engineering process, including streamlining release processes, bi-weekly deployments, 
+        reporting & metrics, and established 7 scrum teams.
+        
+        I turned it around from a failing acquisition into what is now the most 
+        profitable product for iTradenetwork.      
+      </p>
+
+      <p class={paraclass}>
+        I am passionate about building and driving amazing engineering teams
+         building amazing and well-crafted products; there's nothing else I could ever imagine doing. 
+      </p>
+
+      <p class={paraclass}>
+        Can I bring this passion to Fleetcor and its Corpay line of business?
+      </p>
+
+      <p class={"mb-1 mx-8 text-lg text-gray-700 text-justify"}>
+        Thank you, looking forward to speaking with you,
+      </p>
+
+      <p class="ml-16 text-2xl text-gray-700 text-justify italic">
+        Ken Ingle
+      </p>
+    </Container>
+
+
+
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		max-width: 130ch;
+	}
+
+
+</style>

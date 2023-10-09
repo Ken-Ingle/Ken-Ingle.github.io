@@ -1,17 +1,14 @@
 [
-  { "row": 1,  "year": "20", "exp": "Team Leadership"  },
   { "row": 1,   "year": "18", "exp": "Team Management"  },
-  { "row": 1,  "year": "12", "exp": "Application Lifecycle Management"  },
-  { "row": 1,  "year": "12", "exp": "Agile, Scrum, & Kanban"  },
+  { "row": 1,  "year": "20", "exp": "Team Leadership"  },  
+  { "row": 1,  "year": "3",  "exp": "Continuous Integration / Delivery"  },
 
-  { "row": 2,  "year": "23", "exp": ".NET, C#, ASP.NET"  },
-  { "row": 2,  "year": "6",  "exp": ".NET Core"  },
+  { "row": 2,  "year": "12", "exp": "Agile Methodolgies, Scrum"  },
+  { "row": 2,  "year": "3",  "exp": "Amazon Web Services (AWS)"  },
   { "row": 2,  "year": "4",  "exp": "Microsoft Azure"  },
-  { "row": 2,  "year": "3",  "exp": "Amazon AWS"  },
 
-  { "row": 3,  "year": "16", "exp": "Microsoft SQL Server"  },
-  { "row": 3,  "year": "12", "exp": "C++, Win32, POSIX"  },
-  { "row": 3,  "year": "19", "exp": "Web, Javascript, REST"  },
-  { "row": 3,  "year": "5",  "exp": "TypeScript, React"  }
+  { "row": 3,  "year": "4",  "exp": "C#, .NET Core"  },
+  { "row": 3,  "year": "4",  "exp": "Node.js, React, Next.js"  }
+
 
 ]
