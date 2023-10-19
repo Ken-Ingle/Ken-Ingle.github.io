@@ -5,11 +5,11 @@
     "dates": "2017 to Present",    
     "url": "https://www.orbitalshift.com",
     "urlLocation": "company",
+    "location": "Missoula, MT",
     "title": "Director of Engineering",
-    "blurb": "Head of engineering, QA, operations, and infrastructure for startup Orbital Shift's scheduling, time-clock, & payroll software services.",
+    "blurb": "Head of engineering, QA, operations, and infrastructure for startup Orbital Shift's scheduling, timeclock, & payroll software services.",
     "highlights": [
       "Drive bi-weekly scrum releases for product team. Own rhythm and planning for team, including retrospectives, demos, and bi-weekly product releases.",
-      "Planned, designed, delivered, and maintain eight key mobile applications on the Apple iOS App Store and Google Play Store. Automated build & release process.",
       "Simplified and streamlined team resources and infrastructure to turn company profitable."
     ]    
   },
@@ -20,13 +20,11 @@
     "dates": "2012 to 2017",
     "url": "https://www.itradenetwork.com",
     "urlLocation": "company",
+    "location": "Boise, ID",
     "title": "Director of Engineering",
     "blurb": "Head of engineering (software development, QA, release management, operations) for one of ITN's Software-as-a-Service, cloud-hosted product offerings.",
     "highlights": [
-      "Scaled SaaS product to 20x capacity over three years driving $15 billion customer spend.",
       "Drove remote team in Pune, India and Birmingham, U.K., as well as entire engineering team in Boise. Report remotely to California-based CTO.",
-      "Re-defined engineering process, including streamlining release processes, bi-weekly deployments, reporting & metrics. Established 7 scrum teams.",
-      "Drove development plan, budget, and team resourcing strategy. Hiring manager for 40-member team. Grew 4 directs reports into engineering leads.",
       "Established metrics & KPIs to report upon and drive engineering strategy."
     ]
   },
@@ -37,14 +35,12 @@
     "dates": "2010 to 2012",
     "url": "https://en.wikipedia.org/wiki/Windows_Phone",
     "urlLocation": "product",
+    "location": "Redmond, WA",
     "title": "Principal Development Manager",
     "blurb": "Head of device and services product globalization for Windows Phone 7, 7.5, and 8.",
     "highlights": [
-      "Owned international device input, lexicon, & dictionary support (text prediction).",
-      "Drove teams in Redmond, WA; Braga, Portugal; and Dubai, UAE. Hired entire team in Redmond. Grew 2 team members into leads, making 1 my successor.",
-      "Built Windows Phone’s “Globalization Platform:” Natural Language Services (NLS), Regions & Locales / UI, Network Time Zone locator, sorting & display API’s.",
-      "Worked cross-company to push team’s NLS into Windows 8 & 8.1. Owned development for one of seven of Windows Phone’s engineering 'triads.'",
-      "Delivered additional features for WP7.5 and WP8, expanding device ranging to 34 international markets."
+      "Owned international device input, lexicon, & dictionary support (text prediction), Globalization Platform, Natural Language Services (NLS), Regions & Locales / UI, Network Time Zone locator, sorting & display API’s.",
+      "Drove teams in Redmond, WA; Braga, Portugal; and Dubai, UAE. Hired entire team in Redmond. Grew 2 team members into leads, making 1 my successor."
     ]
   },
 
@@ -55,13 +51,12 @@
     "dates": "2005 to 2010",
     "url": "https://www.microsoft.com/exchange",
     "urlLocation": "product",
+    "location": "Redmond, WA",
     "title": "Principal Development Manager",
     "blurb": "Head of development for Microsoft Exchange’s on-premises & online deployment & configuration, globalization, user assistance integration, and management console.",
     "highlights": [
       "Re-architected Exchange Server 2010 to enable 'language packages,' so now new languages can be deployed post-release and post initial deployment.",
-      "Globalized Exchange Server’s Outlook Web App, Unified Messaging, and server administration components (management console, & control panel).",
-      "Created Exchange Online availability notification service using Windows Azure.",
-      "Worked with 40-member writing team to generate all Exchange Server documentation, (on DVD, whitepapers, and on the Exchange TechCenter)."
+      "Globalized Exchange Server’s Outlook Web App, Unified Messaging, and server administration components (management console, & control panel)."
     ]
   },
 
@@ -71,11 +66,11 @@
     "dates": "2003 to 2005",
     "url": "http://msn.com/",
     "urlLocation": "product",
+    "location": "Redmond, WA",
     "title": "Lead Software Development Engineer",
     "blurb": "Frontend lead responsible for MSN / Windows Live’s Subscription Central, Billing Services, Windows Live Account Management, and Windows Live Developer Portal.",
     "highlights": [
       "Unified the various sites' infrastructures, from their original, disparate code bases.",
-      "Re-wrote MSN Member Center for the Bell.Ca partnership launch in MSN 9.1, including redesign of the site's rendering components, and set up the proposal and plans for UI content management integration. Handled the V1 architectural work for the Windows Live and Online Services end-user evangelism site, join.msn.com.",
       "Integrated with back-end metrics, click-tracking, user store, registration pipeline, and other components of MSN and Windows Live."
     ]
   },
@@ -86,12 +81,11 @@
     "dates": "2000 to 2003",
     "url": "https://en.wikipedia.org/wiki/.NET_My_Services",
     "urlLocation": "product",
+    "location": "Redmond, WA",
     "title": "Senior Development Manager",
-    "blurb": "Led engineering efforts for services & tools used by development partners of Microsoft’s HailStorm initiative (“.NET My Services”).",
+    "blurb": "Led engineering efforts for services & tools used for Microsoft’s HailStorm initiative (“.NET My Services”).",
     "highlights": [
-      "Recruited the entire team throughout its first year. I grew 3 directs into leads.",
-      "Responsible for ensuring that secure Standard Operating Procedures were in place for Microsoft's FTC consent order, worked with Price Waterhouse Coopers on audit of our procedures.",
-      "Received 2 patents for key-exchange cryptography processes developed.",
+      "Recruited the entire team throughout its first year. Grew 3 directs into leads.",
       "Owned our development and testing lab, including budgeting/purchasing."
     ]
   },
@@ -102,12 +96,12 @@
     "dates": "1997 to 2000",
     "url": "https://www.cnet.com/tech/tech-industry/checkfree-surges-following-transpoint-buy/",
     "urlLocation": "product",
+    "location": "Redmond, WA",
     "title": "Lead Software Development Engineer",
-    "blurb": "Transpoint was a joint venture between Microsoft and First Data Corporation, envisioning online bill payment and presentment. Headed team responsible for payment processing and datacenter-hosted backend storage. I led 11 FDC developers and 5 Microsoft developers.",
+    "blurb": "Lead for Transpoint, a joint venture between Microsoft and First Data Corporation, envisioning online bill payment and presentment. Headed team responsible for payment processing and datacenter-hosted backend storage. ",
     "highlights": [
-      "Owned the service integration points between Transpoint and financial institutions (Wells Fargo, Chase Manhattan, Bank of America, First Data Solutions, Western Union, M&I Bank, and others).",
-      "Developed Transpoint's payment systems backend, user/biller registration system, and reporting system.",
-      "Responsible for Transpoint datacenter, backend processes and infrastructure."
+      "Owned the service integration points between Transpoint and financial institutions (Chase, Citi, Wells Fargo, & others).",
+      "Developed Transpoint's payment systems backend, user/biller registration system, and reporting system, backend processes, and infrastructure."
     ]
   },
 
@@ -117,12 +111,12 @@
     "dates": "1995 to 1997",
     "url": "https://merchants.fiserv.com/en-us/",
     "urlLocation": "company",
-    "title": "Senior Systems Software Engineer (C/C++, SQL Server, FoxPro, Java)",
+    "location": "Omaha, NE",
+    "title": "Senior Systems Software Engineer",
     "blurb": "Developed dedicated software for First Data’s Mail Services and Imaging Services facilities. It was responsible for sending out nearly 16 million cardholder statements per day to customers, making it the 6th largest U.S. Post Office.",
     "highlights": [
       "Developed systems-level software for dedicated hardware on 150+ production floor machines in a 24hr/7day environment.",
-      "Created processes for mainframe-to-PC data population, mail and fiche production control, production tracking, and report generation.",
-      "Designed, implemented, and maintained Visual C++ 5.0, FoxPro 2.6, Visual Basic 4.0/5.0, and Visual FoxPro 5.0 applications."
+      "Created processes for mainframe-to-PC data population, mail and fiche production control, production tracking, and report generation."
     ]
   }
 ]

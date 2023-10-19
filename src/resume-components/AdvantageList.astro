@@ -1,9 +1,10 @@
 ---
 import Advantage from './Advantage.astro'
 import list from '../data/advantagelist.json';
+// For chevron lists: list-image-[url(/public/chevron_right.svg)]
 ---
 
-<ul class="list-none">
+<ul class="list-disc mx-8">
 
   {list.map((adv) => (
     <Advantage title={adv.lead}>

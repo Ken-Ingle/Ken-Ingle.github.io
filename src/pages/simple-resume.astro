@@ -14,32 +14,21 @@ import SimpleContainer from '../components/SimpleContainer.astro';
 	<main>
     <TitleBar subtitle="" />
 
-    <SimpleContainer title="My Objectives" css="col-span-2">
-      <ol class="list-decimal list-inside">
-        {objectives.map((objective) => (
-          <li>{objective}</li>
-        ))}
-      </ol>
-    </SimpleContainer>
-
     <SimpleContainer title="My Advantages"  icon="icon-park:positive-dynamics">
       <AdvantageList />
     </SimpleContainer>
-
-
-    <div class="break-after-page">
-      <SimpleContainer title="My Education" icon="zondicons:education">
-          Boston University, College of Engineering,
-          Boston, MA. Bachelor of Science in Computer Engineering.
-          <ExperienceList />
-  
-      </SimpleContainer>
-    </div>
 
     <SimpleContainer title="My Career" icon="mdi:worker">
       <SimpleCareerList />
     </SimpleContainer>
 
+    <div class="break-after-page">
+      <SimpleContainer title="My Education" icon="zondicons:education">
+          Boston University, College of Engineering,
+          Boston, MA. Bachelor of Science in Computer Engineering.
+  
+      </SimpleContainer>
+    </div>
 
 
 	</main>

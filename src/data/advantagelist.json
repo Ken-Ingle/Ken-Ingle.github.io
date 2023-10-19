@@ -1,19 +1,18 @@
 [
   {
     "lead": "20 years of development team leadership.",
-    "desc": "Led architecture, implementation, and strategy for teams of 4 to 40 engineers, across continents."
-  },
-
-  {
-    "lead": "Software manager that can write English and not just code.",
-    "desc": "Written strategy, architecture, proposals, and specifications for team direction and vision."
+    "desc": "Led architecture, implementation, and strategy for teams of 4 to 40 global engineers."
   },
   {
     "lead": "Experienced in all stages of the software life cycle.",
-    "desc": "Planned, allocated, implemented, and delivered multiple software products, both online and on-device."
+    "desc": "Planned, implemented, and delivered multiple software products."
   },
   {
     "lead": "Extensive SaaS engineering.",
-    "desc": "Creating multiple online services before they were cool. Scaled online services to millions of global users."
+    "desc": "Creating online services before they were cool. Building on both Microsoft Azure & AWS."
+  },
+  {
+    "lead": "Working in .NET before Microsoft released it.",
+    "desc": "Developing products in .NET & C# since 2000."
   }
 ]

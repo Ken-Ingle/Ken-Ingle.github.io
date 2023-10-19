@@ -4,7 +4,6 @@ import data from '../data/careerlist.json';
 
 <ul class="">
   {data.map((job) => (
-    <div class="mt-4 ml-4">
       <h2 class="text-lg mt-2 flex-1 bg-primary-800 text-primary-200 p-1 font-semibold">
         {job.company}
         {job.product && (
@@ -12,17 +11,16 @@ import data from '../data/careerlist.json';
         )}
       </h2>
       <span class="p-1 font-semibold text-lg">
-        {job.title}<span class="float-right">{job.dates}</span> 
+        {job.title}, {job.location} <span class="float-right">{job.dates}</span> 
       </span>
       <span class="ml-4 block">
         {job.blurb}
-        <ul slot="list" class="list-image-[url(/public/chevron_right.svg)] mx-8">
+        <ul slot="list" class="list-disc mx-8">
           {job.highlights.map((item) => (
             <li class="ml-[-12px] text-justify">{item}</li>
           ))}
         </ul>      
       </span>
-    </div>
 
   ))}
 

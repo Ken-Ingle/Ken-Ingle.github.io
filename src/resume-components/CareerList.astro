@@ -7,7 +7,7 @@ import data from '../data/careerlist.json';
 <ul class="">
   {data.map((job) => (
     <li>
-      <CareerSection title={job.title} >
+      <CareerSection title={job.title} location={job.location} >
         <div slot="asside">
           <div class="font-semibold">
             {job.urlLocation === 'company' && (
